@@ -60,7 +60,8 @@ The system intelligently processes PDF documents to identify meaningful headings
 ## Technical Approach
 
 ### 1. **Script Detection Algorithm**
-```def detect_script(text): 
+```
+def detect_script(text): 
 # Identifies document language: DEVANAGARI, CJK, or LATIN
 # Enables language-specific processing optimizations
 ```
@@ -73,7 +74,8 @@ The system intelligently processes PDF documents to identify meaningful headings
 - **Noise Reduction**: Filters out common false positives
 
 ### 3. **Advanced Scoring System**
-``` def score_span(span, body_size, script): 
+```
+def score_span(span, body_size, script): 
 # Multi-factor scoring based on:
 # - Font size differential from body text
 # - Font weight (bold) and styling
@@ -104,7 +106,8 @@ challenge1a
 
 
 3. **For Windows PowerShell:**
-``` $inputDir = (Get-Location).Path + "\pdfs"
+```
+$inputDir = (Get-Location).Path + "\pdfs"
 $outputDir = (Get-Location).Path + "\sample_dataset\outputs"
 docker run --rm -v "${inputDir}:/app/input" -v "${outputDir}:/app/output" challenge1a
 ```
