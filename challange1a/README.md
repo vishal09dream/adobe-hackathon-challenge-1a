@@ -26,7 +26,7 @@ challenge1a/
 # Adobe Hackathon 2025 – Challenge 1A
 **Intelligent PDF Outline Extractor**
 
-**Team Name:** [Your Team Name]  
+**Team Name:** UV Boys  
 **Challenge ID:** Round 1A  
 **Submission Date:** July 27, 2025
 
