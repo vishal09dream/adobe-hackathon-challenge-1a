@@ -72,14 +72,14 @@ The system intelligently processes PDF documents to identify meaningful headings
 - **Noise Reduction**: Filters out common false positives
 
 ### 3. **Advanced Scoring System**
-``` def score_span(span, body_size, script): ```
+``` def score_span(span, body_size, script): 
 # Multi-factor scoring based on:
 # - Font size differential from body text
 # - Font weight (bold) and styling
 # - Position on page (Y-coordinate)
 # - Text characteristics and patterns
 # - Language-specific adjustments
-
+```
 
 ### 4. **Hierarchical Level Assignment**
 - **Pattern-based**: Numbered sections (1.1.1, 1.2, etc.)
