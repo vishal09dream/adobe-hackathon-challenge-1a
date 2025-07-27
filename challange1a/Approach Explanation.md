@@ -14,7 +14,7 @@ The system begins by analyzing text content to identify the document's primary s
 - **CJK** (Chinese/Japanese/Korean characters)  
 - **LATIN** (English and European languages)
 
-This enables language-specific processing optimizations for heading detection.
+> This enables language-specific processing optimizations for heading detection.
 
 ---
 
