@@ -98,10 +98,8 @@ def score_span(span, body_size, script):
 
 
 2. **Run PDF processing:**
-``` docker run --rm
--v "${PWD}/pdfs:/app/input"
--v "${PWD}/sample_dataset/outputs:/app/output"
-challenge1a
+```
+docker run --rm -v "${PWD}/pdfs:/app/input" -v "${PWD}/sample_dataset/outputs:/app/output" challenge1a
 ```
 
 
