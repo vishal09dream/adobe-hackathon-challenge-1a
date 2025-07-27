@@ -105,9 +105,7 @@ docker run --rm -v "${PWD}/pdfs:/app/input" -v "${PWD}/sample_dataset/outputs:/a
 
 3. **For Windows PowerShell:**
 ```
-$inputDir = (Get-Location).Path + "\pdfs"
-$outputDir = (Get-Location).Path + "\sample_dataset\outputs"
-docker run --rm -v "${inputDir}:/app/input" -v "${outputDir}:/app/output" challenge1a
+docker run --rm -v "${PWD}/sample_dataset/pdfs:/app/input:ro" -v "${PWD}/sample_dataset/outputs:/app/output" --network none pdf-processor
 ```
 
 
