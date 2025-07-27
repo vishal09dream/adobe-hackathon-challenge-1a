@@ -213,4 +213,4 @@ The system includes comprehensive error handling:
 
 ---
 
-*This solution demonstrates advanced PDF processing capabilities with robust heading extraction, multi-language support, and production-ready containerization for the Adobe Hackathon 2025 Challenge 1A.*
+*This solution demonstrates advanced PDF processing capabilities with robust heading extraction, multi-language support, and production-ready containerization for the Adobe Hackathon 2025 Challenge 1A. ~ TEAM UV Boys*
