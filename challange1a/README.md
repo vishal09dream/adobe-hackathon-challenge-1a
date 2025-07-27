@@ -60,9 +60,10 @@ The system intelligently processes PDF documents to identify meaningful headings
 ## Technical Approach
 
 ### 1. **Script Detection Algorithm**
-```def detect_script(text): ```
+```def detect_script(text): 
 # Identifies document language: DEVANAGARI, CJK, or LATIN
 # Enables language-specific processing optimizations
+```
 
 
 ### 2. **Intelligent Heading Filtering**
