@@ -192,21 +192,6 @@ The system includes comprehensive error handling:
 - **Environment**: Optimized Python runtime with unbuffered output
 - **Size**: Lightweight container optimized for PyMuPDF dependencies
 
-## Troubleshooting
-
-### Common Issues:
-
-1. **Permission Errors**: Ensure Docker has access to mount directories
-2. **Memory Issues**: For large PDFs, increase Docker memory allocation
-3. **Font Issues**: Some PDFs may have embedded fonts that affect detection
-4. **Language Detection**: Non-standard encodings may affect script detection
-
-### Performance Tips:
-
-- Process PDFs in batches for better throughput
-- Use SSD storage for faster I/O operations
-- Ensure adequate memory for large document processing
-
 ---
 
 *This solution demonstrates advanced PDF processing capabilities with robust heading extraction, multi-language support, and production-ready containerization for the Adobe Hackathon 2025 Challenge 1A. ~ TEAM UV Boys*
