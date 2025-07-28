@@ -1,10 +1,5 @@
 ```
 challenge1a/
-├── app/
-│   ├── main.py                  # Entry point for PDF processing pipeline
-│   ├── process_pdfs.py          # Core PDF processing and extraction logic
-│   ├── utils.py                 # Utility functions and helper methods
-│   └── requirements.txt         # Python dependencies
 │
 ├── sample_dataset/
 │   └── outputs/                 # Directory for processed results and outputs
