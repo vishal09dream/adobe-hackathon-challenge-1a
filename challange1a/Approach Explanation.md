@@ -15,7 +15,7 @@ The system begins by analyzing text content to identify the document's primary s
 - **LATIN** (English and European languages)
 
 > This enables language-specific processing optimizations for heading detection.
-
+![Japanese Output Sample](Japanese Output Sample.png)
 ---
 
 ### 2. Intelligent Body Text Analysis
