@@ -13,6 +13,7 @@ The system begins by analyzing text content to identify the document's primary s
 - **DEVANAGARI** (Hindi/Sanskrit scripts)
 - **CJK** (Chinese/Japanese/Korean characters)  
 - **LATIN** (English and European languages)
+![image alt](https://github.com/vishal09dream/adobe-hackathon-challenge-1a/blob/16f81e3b81061166255ab30115bba468762911da/challange1a/Japanese%20Output%20Sample.png)
 > This enables language-specific processing optimizations for heading detection.
 
 ---
