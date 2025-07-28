@@ -13,7 +13,6 @@ The system begins by analyzing text content to identify the document's primary s
 - **DEVANAGARI** (Hindi/Sanskrit scripts)
 - **CJK** (Chinese/Japanese/Korean characters)  
 - **LATIN** (English and European languages)
-![Japanese Output Sample](Japanese Output Sample.png)
 > This enables language-specific processing optimizations for heading detection.
 
 ---
